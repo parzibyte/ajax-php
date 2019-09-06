@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+    <!--
+Envío de formulario usando AJAX y PHP
+
+https://parzibyte.me/blog
+-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <meta name="description" content="Formulario de login con Bootstrap">
+        <meta name="author" content="Parzibyte">
+        <title>Enviar formulario AJAX con PHP</title>
+    </head>
+
+    <body>
+        <h2>Enviar formulario</h2>
+        <a href="//parzibyte.me/blog">By Parzibyte</a>
+        <form>
+
+            <label for="nombre">Nombre</label>
+            <br>
+            <input id="nombre" name="nombre"
+                class="form-control" type="text"
+                placeholder="Nombre">
+            <br><br>
+            <label for="correo">Correo</label>
+            <br>
+            <input id="correo" name="correo"
+                class="form-control" type="email"
+                placeholder="Correo electrónico">
+            <br><br>
+            <label for="edad">Edad</label>
+            <br>
+            <input id="edad" name="edad"
+                class="form-control" type="number"
+                placeholder="Edad">
+            <br><br>
+            <div id="respuesta">
+
+            </div>
+            <button id="btnEnviar" type="button">
+                Enviar
+            </button>
+        </form>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
